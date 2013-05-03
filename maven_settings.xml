@@ -1,0 +1,82 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <localRepository>${MAVEN_REPO}</localRepository>
+
+  <profiles>
+    <profile>
+      <id>normal</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>apdm</id>
+          <name>APDM Nexus</name>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+            <checksumPolicy>warn</checksumPolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+            <checksumPolicy>fail</checksumPolicy>
+          </snapshots>
+<!--          <url>http://ci.dev.api.no/nexus/content/groups/public/</url> -->
+             <url>http://apdm.int.abctech-thailand.com/nexus/content/groups/public</url>
+          <layout>default</layout>
+        </repository>
+      </repositories>
+    </profile>
+	<profile>
+            <id>remotesonar</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <!-- MYSQL -->
+                <sonar.jdbc.url>
+                  jdbc:mysql://apdm:3306/sonar?useUnicode=true&amp;characterEncoding=utf8
+                </sonar.jdbc.url>
+                <sonar.jdbc.driver>com.mysql.jdbc.Driver</sonar.jdbc.driver>
+                <sonar.jdbc.username>sonar</sonar.jdbc.username>
+                <sonar.jdbc.password>pingu123</sonar.jdbc.password>
+
+                <!-- REMOTE HOST -->
+                <sonar.host.url>http://apdm:9000/sonar</sonar.host.url>
+            </properties>
+        </profile>
+  </profiles>
+
+  <servers>
+    <server>
+      <id>Nexus</id>
+      <username>api-nexus</username>
+      <password>api-nexus</password>
+    </server>
+    <server>
+       <id>abctech-repository</id>
+       <privateKey>/home/tone/.ssh/id_rsa</privateKey>
+       <username>tone</username>
+       <filePermissions>775</filePermissions>
+       <directoryPermissions>775</directoryPermissions>
+     </server>
+  </servers>
+
+
+       <!-- <url>http://ci.dev.api.no/nexus/content/groups/public/</url> -->
+<!--
+  <mirrors>
+    <mirror>
+      <id>Nexus</id>
+      <name>Nexus Mirror</name>
+      <url>http://apdm.int.abctech-thailand.com/nexus/content/groups/public</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+-->
+
+</settings>
