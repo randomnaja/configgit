@@ -25,11 +25,30 @@
             <updatePolicy>never</updatePolicy>
             <checksumPolicy>fail</checksumPolicy>
           </snapshots>
-<!--          <url>http://ci.dev.api.no/nexus/content/groups/public/</url> -->
-             <url>http://apdm.int.abctech-thailand.com/nexus/content/groups/public</url>
+             <url>http://ci.dev.api.no/nexus/content/groups/public/</url>
+<!--             <url>http://apdm.dev.abctech-thailand.com/nexus/content/groups/public</url> -->
           <layout>default</layout>
         </repository>
       </repositories>
+      <pluginRepositories>
+	<pluginRepository>
+          <id>apdm</id>
+          <name>APDM Nexus</name>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+            <checksumPolicy>warn</checksumPolicy>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+            <checksumPolicy>fail</checksumPolicy>
+          </snapshots>
+             <url>http://ci.dev.api.no/nexus/content/groups/public/</url>
+<!--             <url>http://apdm.dev.abctech-thailand.com/nexus/content/groups/public</url> -->
+          <layout>default</layout>
+        </pluginRepository>
+      </pluginRepositories>
     </profile>
 	<profile>
             <id>remotesonar</id>
@@ -54,6 +73,11 @@
   <servers>
     <server>
       <id>Nexus</id>
+      <username>api-nexus</username>
+      <password>api-nexus</password>
+    </server>
+    <server>
+      <id>apdm</id>
       <username>api-nexus</username>
       <password>api-nexus</password>
     </server>
