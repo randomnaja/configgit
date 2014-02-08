@@ -18,14 +18,14 @@
   <graph edgedefault="directed" id="G">
     <node id="n0">
       <data key="d4"><![CDATA[default node]]></data>
-      <data key="d5"><![CDATA[/yEd/palette/application-yfiles/categories/User Defined/entries/0dd59129-5057-4a0a-9886-f8287302c953]]></data>
+      <data key="d5"><![CDATA[/yEd/palette/application-yfiles/categories/server/entries/7335cb11-76ba-480a-a100-817c3a00f789]]></data>
       <data key="d7"/>
       <data key="d8">
         <y:ImageNode>
-          <y:Geometry height="24.0" width="24.0" x="-12.0" y="-12.0"/>
+          <y:Geometry height="64.0" width="64.0" x="-32.0" y="-32.0"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="10.0" y="28.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="30.0" y="68.0"/>
           <y:Image alphaImage="true" refid="1"/>
         </y:ImageNode>
       </data>
@@ -84,14 +84,24 @@
   </graph>
   <data key="d0">
     <y:Resources>
-      <y:Resource id="1" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABgElEQVR42u2UsYrCQBRFE7SxVLAR&#13;
-sQja+xkW+g1WafUHbFPYaYq06ayCVlrYCXYWIqKNgmBAIigagkZEuMsbmOCww7ILbrGsDw7vcSfc&#13;
-OzMkUe73O34T5R3wjwImkwls234Z4/FYDCBxNpthsVhgtVp9m0ajAUVRhE46+X0KoIXj8cigIE3T&#13;
-kM1msVwuI51MCFVVkcvlYFlWpPNnCGnAer3G6XRitNtt6LqOarUK0zQjnYyok8lwOEQikRB0jjRg&#13;
-s9kgCAJGuVyG4zjodDqoVCqRTkbUfd9Ht9tFqVQSdI40YLvd4nq94nw+I5VK4XA4YL/fI5lMMo3W&#13;
-+BURsViMbYLr1DnSANd1cbvd0O/3BSNiMBiwNZqpXy4XdkXpdFrQOdKA3W6Hx+OBWq2GZrPJZsIw&#13;
-DNTrdTaTEfUwDNHr9ZDJZASdIw3wPA9U+Xwe8/kcvKbTKQqFApv5ieLxOIrFInvfuf5cXwb8pFqt&#13;
-FjN/7tIA2skrv+TRaPT+m74D/krAB+WL9cFtcr6NAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="1" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADr0lEQVR42u2bz27TQBDGE2iFioSQ&#13;
+UIWEkEAI8QQ5RRElCrFNkHJoUyd2KbF76Y0X4JQL6pUTEnBA4s8JJA68EAeUCw/QS9XiSbKpcSbO&#13;
+7o5jj51E2kNa+ZO/r7Pr2V+9pdL6UypVKpVNMer1+gZFC67Pk940gHa7fb1arW4FX8ua2mW4HnTE&#13;
+4K43DRMCgF8OBoMrOspwXa1Wu9FsNm+KAd85603CvCwL3WRB3LKsW4HGthjwnXKzy9aDMLT8Gu7R&#13;
+E7Pn/7Ac76/p+KdGz7swui+DcRgawffg58HvlQdB73R8T953s+vtiPu1bfuqaZq3LevxncuhEWbl&#13;
++HjTdI7ez9ysfTg7KOYT0/PetVqvrjUajbtBud8TA8LQqiSr533Mj/mJXufgc9g8hAEVoVf2eTM/&#13;
+0Wju7u8J89qPT5jzeTQ/CmD/xS+S+VEAjj+Mipsd92THMB5RxOG66BzV1ava9pbR7b9GwhxSGycI&#13;
+4CyabKvVeMjFvNALFrgHSCWdkdtkrEy5mRd62DQimQdxbI6mZR6b53F62BpCMg/i2AKV1l8+LgBM&#13;
+D1tAtczD8zLJstIt+3kBzNPDnh5avTN0TEmVFWXOYwHE6S2aMtIbB+iZkygr6oKHPefj9KgBlGGX&#13;
+NN59jQOglNUyV/t5eooBlP+7F9gfwz5ZBEApqyzMqwQAlQ5+p0QIhICQiABgDdAtq6zMy96rgCPg&#13;
+dwaJQQCwBoR3TTKinPcK0acb+AOfaAAYdpINgOtGKdIuQ2VviwCkmKBMAJx3ieFpBGubCECaCcq0&#13;
+o5y3yOE1RASgxARl2lHOfCC8gGoxQdV2NMtdIhYmmQmqtqNZbpFRLEZlgqrtaJZ8AMViZCa4oKyW&#13;
+aV61CUsa3kiVFZfePml4s9SySrq3TxresGGCMgGsmWCRmaCqXuGYoKpe4Zigql5mTDCr//3J6KXC&#13;
+BLmaT40JcjWfGhPk/P7AmgmmwQS58IHMmCAXPpAZE+TCBzJjgssyr9qEFY4Jqvb2hWOCqr194Zig&#13;
+amu7ZoJFY4JZwptwACv+nmDXG0aFrT3nDbyNzcX8aIXfdU+QdvkPmQma9sHPvLwbPKvnfSEzQXjj&#13;
+Op/m/fNnbr9KZoIwnnacTzkzf2G5/lst81EmOJqjzxv3A9EPeTEPJ0bq9cGGlvkoEwwvUJPDE98M&#13;
+p/8bSoyR+fPRPbn+1/CZIdUPygQ5vhWehN5CJgjTQKt3LuGntTjpLWSC3M/9UfVimSD3E59J6aEB&#13;
+rPTZ4VU7NS70/gHtYgYb641+gQAAAABJRU5ErkJggg==</y:Resource>
     </y:Resources>
   </data>
 </graphml>

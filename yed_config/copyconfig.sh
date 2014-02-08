@@ -1,0 +1,1 @@
+cp -vR ~/.yEd/* yEd/

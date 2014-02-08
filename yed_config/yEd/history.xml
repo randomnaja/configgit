@@ -20,4 +20,14 @@
     <mimeType>application-yfiles</mimeType>
     <ioHint>GraphMLOutput</ioHint>
   </entry>
+  <entry>
+    <url>file:/home/tone/OLI/server/agentoffice_env.graphml</url>
+    <mimeType>application-yfiles</mimeType>
+    <ioHint>GraphMLOutput</ioHint>
+  </entry>
+  <entry>
+    <url>file:/home/tone/OLI/server/proposed_test_env.graphml</url>
+    <mimeType>application-yfiles</mimeType>
+    <ioHint>GraphMLOutput</ioHint>
+  </entry>
 </history>
